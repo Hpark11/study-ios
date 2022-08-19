@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SearchView: View {
   let url = URL(string: "https://jsonplaceholder.typicode.com/users")!
   
   @State var users: [User] = []
@@ -16,11 +16,19 @@ struct ContentView: View {
   
   var body: some View {
     NavigationView {
-      List(users) { user in
-        VStack(alignment: .leading, spacing: 4) {
-          Text(user.name)
-          Text(user.email)
-            .font(.caption)
+      
+      // May Be bug only working with for each....
+      List {
+        ForEach(users) { user in
+          VStack(alignment: .leading, spacing: 4) {
+            Text(user.name)
+            Text(user.email)
+              .font(.caption)
+          }
+          // Row separator customization...
+          .listRowSeparatorTint(.red)
+          // Hiding Line...
+          .listRowSeparator(.hidden)
         }
       }
       .refreshable(action: {
@@ -62,8 +70,8 @@ struct User: Identifiable, Decodable {
   var email: String
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SearchView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    SearchView()
   }
 }

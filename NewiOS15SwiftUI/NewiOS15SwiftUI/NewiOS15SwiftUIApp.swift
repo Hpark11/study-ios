@@ -11,7 +11,7 @@ import SwiftUI
 struct NewiOS15SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          SearchView()
         }
     }
 }
