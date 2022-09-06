@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46168A1D28C584C0006BC6CC /* KeyboardAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A1C28C584C0006BC6CC /* KeyboardAccessoryView.swift */; };
+		46168A1F28C58709006BC6CC /* KeyboardFocusedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A1E28C58709006BC6CC /* KeyboardFocusedView.swift */; };
+		46168A2128C58800006BC6CC /* AccessBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A2028C58800006BC6CC /* AccessBindingView.swift */; };
+		46168A2328C5898D006BC6CC /* NewForegroundStyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A2228C5898D006BC6CC /* NewForegroundStyleView.swift */; };
+		46168A2528C58A37006BC6CC /* SystemImageRenderingModeVariantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A2428C58A37006BC6CC /* SystemImageRenderingModeVariantView.swift */; };
+		46168A2728C58B78006BC6CC /* NewTextCustomizationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A2628C58B78006BC6CC /* NewTextCustomizationsView.swift */; };
+		46168A2928C58D72006BC6CC /* TimelineUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A2828C58D72006BC6CC /* TimelineUpdateView.swift */; };
+		46168A2B28C58E97006BC6CC /* NewButtonCustomizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46168A2A28C58E97006BC6CC /* NewButtonCustomizationView.swift */; };
 		465069FE28A5E1F300E65C80 /* NewiOS15SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465069FD28A5E1F300E65C80 /* NewiOS15SwiftUIApp.swift */; };
 		46506A0028A5E1F300E65C80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 465069FF28A5E1F300E65C80 /* ContentView.swift */; };
 		46506A0228A5E1F400E65C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46506A0128A5E1F400E65C80 /* Assets.xcassets */; };
@@ -43,6 +51,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46168A1C28C584C0006BC6CC /* KeyboardAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAccessoryView.swift; sourceTree = "<group>"; };
+		46168A1E28C58709006BC6CC /* KeyboardFocusedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardFocusedView.swift; sourceTree = "<group>"; };
+		46168A2028C58800006BC6CC /* AccessBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessBindingView.swift; sourceTree = "<group>"; };
+		46168A2228C5898D006BC6CC /* NewForegroundStyleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewForegroundStyleView.swift; sourceTree = "<group>"; };
+		46168A2428C58A37006BC6CC /* SystemImageRenderingModeVariantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemImageRenderingModeVariantView.swift; sourceTree = "<group>"; };
+		46168A2628C58B78006BC6CC /* NewTextCustomizationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTextCustomizationsView.swift; sourceTree = "<group>"; };
+		46168A2828C58D72006BC6CC /* TimelineUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineUpdateView.swift; sourceTree = "<group>"; };
+		46168A2A28C58E97006BC6CC /* NewButtonCustomizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButtonCustomizationView.swift; sourceTree = "<group>"; };
 		465069FA28A5E1F300E65C80 /* NewiOS15SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewiOS15SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		465069FD28A5E1F300E65C80 /* NewiOS15SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewiOS15SwiftUIApp.swift; sourceTree = "<group>"; };
 		465069FF28A5E1F300E65C80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,8 +137,16 @@
 				46FF65C228B32510003085E4 /* SafeAreaInsectView.swift */,
 				46DEA98228B44DA200BE039B /* SwipeActionView.swift */,
 				46DEA98428B44EB300BE039B /* EnumAppStorageView.swift */,
-				46DEA98628B4504B00BE039B /* AlternateKeyboardButton.swift */,
 				46DEA98828B450C500BE039B /* CanvasView.swift */,
+				46DEA98628B4504B00BE039B /* AlternateKeyboardButton.swift */,
+				46168A1C28C584C0006BC6CC /* KeyboardAccessoryView.swift */,
+				46168A1E28C58709006BC6CC /* KeyboardFocusedView.swift */,
+				46168A2028C58800006BC6CC /* AccessBindingView.swift */,
+				46168A2228C5898D006BC6CC /* NewForegroundStyleView.swift */,
+				46168A2428C58A37006BC6CC /* SystemImageRenderingModeVariantView.swift */,
+				46168A2628C58B78006BC6CC /* NewTextCustomizationsView.swift */,
+				46168A2828C58D72006BC6CC /* TimelineUpdateView.swift */,
+				46168A2A28C58E97006BC6CC /* NewButtonCustomizationView.swift */,
 				46506A0128A5E1F400E65C80 /* Assets.xcassets */,
 				46506A0328A5E1F400E65C80 /* Preview Content */,
 			);
@@ -290,11 +314,19 @@
 				46506A0028A5E1F300E65C80 /* ContentView.swift in Sources */,
 				46FF65C128B3229A003085E4 /* OnSubmitView.swift in Sources */,
 				46DEA98528B44EB300BE039B /* EnumAppStorageView.swift in Sources */,
+				46168A2128C58800006BC6CC /* AccessBindingView.swift in Sources */,
+				46168A2928C58D72006BC6CC /* TimelineUpdateView.swift in Sources */,
 				46D3786B28ADCFB3008663CD /* AsyncImageTestView.swift in Sources */,
 				46FF65C328B32510003085E4 /* SafeAreaInsectView.swift in Sources */,
+				46168A1F28C58709006BC6CC /* KeyboardFocusedView.swift in Sources */,
 				46DEA98928B450C500BE039B /* CanvasView.swift in Sources */,
+				46168A2328C5898D006BC6CC /* NewForegroundStyleView.swift in Sources */,
 				465069FE28A5E1F300E65C80 /* NewiOS15SwiftUIApp.swift in Sources */,
+				46168A2B28C58E97006BC6CC /* NewButtonCustomizationView.swift in Sources */,
+				46168A2728C58B78006BC6CC /* NewTextCustomizationsView.swift in Sources */,
+				46168A1D28C584C0006BC6CC /* KeyboardAccessoryView.swift in Sources */,
 				46DEA98728B4504B00BE039B /* AlternateKeyboardButton.swift in Sources */,
+				46168A2528C58A37006BC6CC /* SystemImageRenderingModeVariantView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
